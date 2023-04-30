@@ -1,0 +1,814 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed !important;
+  top: 0 !important;
+  width: 100%;
+  z-index:1 ;
+ 
+
+}
+.navbar-nav a:hover{
+    text-decoration: underline;
+    color: #2DE38E;
+}
+a#mistake{
+    padding: 8px 59px 8px 59px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #333333;
+cursor: pointer;
+}
+.nav-item a#mistake:hover{
+    background-color: #116b41;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+    border-radius: 50px;
+         
+}
+a#mistake:hover{
+    background-color: #116b41;
+    transition: background-color 0.5s ease-in-out;
+         
+
+}
+a#mistake_2{
+    margin-right: 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    color: #333333;
+    cursor: pointer;
+}
+.correction_3 a{
+    position: absolute;
+    margin-top: -117px;
+    margin-right: 0;
+    color: white;
+    left: 241px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color:#2DE38E;
+    padding: 8px 30px 8px 30px;
+    border-radius: 50px;
+}
+.correction_3 a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #116b41;
+ transition: background-color 0.5s ease-in-out;
+      
+      
+    
+}
+img#mistake_3{
+    width: 1920px !important;
+height: 550px !important;
+}
+.nav-item{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+}
+
+.carousel-item{
+    height:550px;
+    width: 1920px;
+    
+  
+}
+
+.carousel-item img {
+   
+    margin: auto;
+    width: 1920px ;
+    height: 550px;
+   
+    max-width: 100%;
+    background-size: cover;
+    
+  }
+  .carousel-caption h1{
+    width: 392.64px;
+    height: 251px;
+ 
+    text-align: left;
+   position: relative;
+    margin-bottom: 8rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.form-control{
+    bottom: 100px;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    width: 20% !important;
+    border-radius: 48px !important;
+    display: flex;
+    font-weight: 500 !important;
+       font-family: 'Inter';
+    font-style: normal;
+}
+.little_text{
+        font-size: 0.85rem;
+    display: inline-block;
+    position: absolute;
+    height: 36px;
+    left: 0px;
+    right: 0px;
+    margin-top: 21rem;
+    top: 0px;
+    text-align: left;
+    font-family: 'Inter';
+ font-style: normal;
+ font-weight: 500;
+}
+.little_text a{
+    color: white;
+    text-decoration: none;
+}
+.little_text a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.other{
+    margin-bottom:10px;
+
+}
+.other_2{
+    margin-bottom: 8px;
+}
+.other_3{
+    width:48%;
+}
+.sponser{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:2rem ;
+}
+.card_1{
+   
+    justify-content: space-between;
+    margin: 218px 0px 0px 100px;
+    width: 100%;
+    flex-direction: unset;
+}
+.button_1{
+    border: 2px solid;
+    border-radius: 58px;
+    width: 35%;
+    font-weight: bold;
+    padding: 3px 11px 5px 63px;
+    margin: 10px 0px 0px 0px;
+}
+.correction_2{
+    width: 50%;
+    margin: 160px 0px 0px 0px;
+    
+}
+.correction_2 h1{
+    margin-bottom: 1rem;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  width:105%;
+}
+.photoo img{
+    margin: 85px 0px 0px 0px;
+}
+.correction_2 a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 17px 8px 18px;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    width:50%;
+}
+.correction_2 a:hover{
+    text-decoration: underline;
+    color:#2DE38E;
+}
+.paisa_2 h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+.fees h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+.chime_card_2 h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+.pay_anyone h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+.Apy_2 h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+.control h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+.security h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+}
+.lock_2 h4{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+}
+.lock_2 p{
+    color: #4A4A4A;
+}
+.paisa img{
+    margin-top: 8rem
+}
+.paisa_2{
+    margin-top: 8rem
+}
+.paisa_2 a{
+    
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 17px 8px 18px;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    width:20%;
+
+}
+.paisa_2 a:hover{
+    text-decoration: underline;
+    color:#2DE38E;
+
+}
+.chime_card_2 a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 17px 8px 18px;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    width:20%;
+
+}
+.chime_card_2 a:hover{
+    text-decoration: underline;
+    color:#2DE38E;
+
+}
+.lock img{
+    display: grid;
+    margin: auto;
+}
+.pay_anyone a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 17px 8px 18px;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    width:20%;
+
+}
+.pay_anyone a:hover{
+    text-decoration: underline;
+    color:#2DE38E;
+}
+.Apy_2 a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 17px 8px 18px;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    width:20%;
+
+}
+.Apy_2 a:hover{
+    text-decoration: underline;
+    color:#2DE38E;
+}
+.control a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 17px 8px 18px;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    width:20%;
+
+}
+.control a:hover{
+    text-decoration: underline;
+    color:#2DE38E;
+}
+.fees{
+    margin-top: 8rem;
+}
+.fees a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 17px 8px 18px;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    width:20%;
+
+}
+.lock{
+    display: grid;
+    margin: auto;
+}
+.fees a:hover{
+    text-decoration: underline;
+    color:#2DE38E;
+}
+.fees_1 img{
+    margin-top: 4rem;
+}
+.chime_card{
+    margin-top: 8rem;
+}
+.chime_card_2{
+    margin-top: 9rem;
+}
+.pay_anyone{
+    margin-top: 11rem;
+}
+.pay_anyone_2 img{
+    margin-top: 5rem;
+}
+.Apy img{
+    margin-top: 5rem;
+}
+.Apy_2{
+    margin-top: 10rem;
+}
+.control{
+    margin-top: 10rem;
+}
+.control_2 img{
+    margin-top: 6rem;
+}
+.security{
+    margin-top: 10rem;
+}
+.lock{
+    margin-top: 8rem;
+}
+.lock_2{
+    margin-top: 5rem;
+}
+.starter{
+    background-color: #F0FBF5;
+     margin-top: 8rem;
+
+}
+.get_started{
+    margin-top: 5rem;
+
+}
+.get_started_2{
+    margin-top: 1rem;
+
+}
+.change{
+    text-decoration: none;
+    color: black;
+    
+    padding: 11px 39px 11px 39px;
+    border-radius: 59px;
+    background-color: #2DE38E;
+    font-weight: 400;
+}
+.form_control_1{
+    border-radius: 50px;
+    width: 30%;
+    text-align: center;
+    padding:12px 11px 12px 12px;
+}
+a#change_2{
+    color: black !important;
+}
+.final{
+    margin-top: 10rem;
+}
+.ben_6{
+    margin-top: 8rem;
+}
+.final ul{
+    list-style:none;
+    padding: 3px 2px 0px 0px;;
+}
+.final a{
+    text-decoration: none;
+    color:#74758C;
+}
+.ben_5 img{
+    margin-bottom: 2rem;
+}
+@media (max-width: 475px){
+
+    .correction_2{
+        margin-top: 5rem;
+    }
+    .correction_2 a{
+        width:40% !important;
+    }
+    .correction_2 h1{
+        width: 80% !important;
+    }
+    .paisa_2{
+        margin-top: 5rem;
+    }
+    .fees{
+        margin-top: 5rem;
+    }
+    .fees_1 img{
+        margin-top: 5rem !important;
+    }
+    .chime_card {
+        margin-top: 5rem !important;
+    }
+    .chime_card_2{
+        margin-top: 5rem;
+    }
+    .pay_anyone{
+        margin-top: 5rem;
+    }
+    .pay_anyone_2 img{
+        width: 100%;
+    }
+    .Apy img{
+        margin-top: 5rem !important;
+    }
+    .Apy_2{
+        margin-top: 5rem;
+    }
+    .control{
+        margin-top: 5rem;
+    }
+    .control_2 img{
+        margin-top: 5rem !important;
+    }
+    .security{
+        margin-top: 5rem;
+    }
+    .photoo img{
+        margin-top: 4rem !important;
+    }
+    .lock img{
+        margin: auto;
+        display: grid;
+    }
+
+
+
+}
+@media only screen and (max-width: 576px){
+.sponser{
+          display: none;
+}
+
+    .btn{
+        display: none !important;
+    }
+    .correction_2{
+        display: block !important;
+        width: 100% !important;
+        margin-top: 8rem;
+    }
+    .correction_2 a{
+        width: 40% !important;
+    }
+     .correction_2 a:hover{
+       text-decoration: underline;
+      color:#2DE38E;
+     }
+
+   
+ 
+ 
+.photoo img {
+    margin-top: 8rem !important;
+    width: 100%;
+}
+.fees_1 img{
+    margin-top: 8rem !important;
+}
+.chime_card_2{
+    margin-top: 8rem;
+}
+.chime_card img{
+    width:100%;
+}
+.pay_anyone{
+    margin-top: 8rem;
+}
+.pay_anyone_2 img{
+    width:100%;
+    margin-top: 8rem;
+}
+.Apy img{
+    margin-top: 8rem !important;
+}
+.Apy_2{
+    margin-top: 8rem;
+}
+.control{
+    margin-top: 8rem;
+}
+.control_2 img{
+    margin-top: 8rem !important;
+}
+.security{
+    margin-top: 8rem;
+}
+.fees a{
+    width:40%;
+}
+.chime_card_2 a{
+    width: 40%;
+}
+.pay_anyone a{
+    width: 40%;
+}
+.Apy_2 a{
+    width:40%;
+}
+.control a {
+    width:40%;
+}
+.lock img{
+    margin: auto;
+    display: grid;
+   
+}
+.lock_2{
+    margin-top: 8rem;
+}
+}
+  
+
+@media only screen and (max-width: 768px)
+{ 
+    .sponser{
+                            display: none !important;
+             }
+    .button_1{
+                     border-radius: 40px;
+                     padding: 3px 234px 0px 157px;
+                      font-weight: bold;
+                }
+    .little_text{
+        display: none;
+    }
+    .gmail{
+        display: none;
+    }
+    .btn{
+        display: none !important;
+    }
+    .carousel-item{
+        top: 60px;
+    }
+    .correction_1 h1{
+        width: 46% !important;
+        margin: 0px 0px 43px 0px;
+    }
+    .correction_2 h1{
+        margin-bottom: 2rem;
+        width: 165%
+
+    }
+    .correction_2 a:hover{
+        text-decoration: underline;
+        color:#2DE38E;
+    }
+    .correction_2 a {
+        width: 75%;
+    }
+    .photoo img{
+        margin-top: 14rem;
+        width:100%;
+       
+    }
+    .carousel-caption{
+        width: 100%;
+}
+.control_2 img{
+    width: 100%;
+    margin-top: 10rem;
+}
+.Apy img{
+    width: 100%;
+    margin-top: 10rem;
+
+}
+.fees_1 img{
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.paisa img{
+    width: 100%;
+}
+.form_control_1{
+    width: 50%;
+}
+.paisa_2 a{
+    width:40% ;
+}
+.fees a{
+    width:40%;
+}
+.chime_card_2 a{
+    width: 40%;
+}
+.pay_anyone a{
+    width: 40%;
+}
+.Apy_2 a{
+    width:40%;
+}
+.control a {
+    width:40%;
+}
+
+}
+@media (max-width: 992px){
+    .form-control{
+        width: 36% !important;
+    }
+    .btn{
+        width: 20% !important;
+    }
+   .other_3{
+    width:100%;
+   }
+    .sponser{
+        display: none;
+    }
+    .correction_2{
+        width:100%;
+        margin-top: 10rem !important;
+    }
+    .photoo img{
+        width:100%;
+    }
+    .paisa img{
+        width:100%;
+    }
+    .paisa_2 a{
+        width:40%;
+    }
+    .fees a{
+        width: 40%;
+    }
+    .chime_card_2{
+        margin-top: 8rem;
+    }
+    .chime_card_2 a{
+        width:40%;
+    }
+    .pay_anyone a{
+        width: 40%;
+    }
+    .pay_anyone_2 img{
+        width: 100%;
+        margin-top: 8rem;
+    }
+    .Apy img{
+        width: 100%;
+        margin-top: 8rem;
+    }
+    .Apy_2{
+        margin-top: 8rem;
+    }
+    .Apy_2 a{
+        width: 40%;
+    }
+    .control{
+        margin-top: 8rem;
+    }
+    .control a{
+        width: 40%;
+    }
+    .control_2 img{
+        margin-top: 8rem;
+    width: 100%;
+
+    }
+    .fees_1 img{
+        width: 100%;
+        margin-top: 8rem;
+    }
+    .lock img{
+        margin: auto;
+        display: grid;
+    }
+    .get_started_2 img{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .form_control_1{
+        width:50%;
+    }
+
+
+
+
+}
+@media (max-width: 1199px){
+   
+    .form-control{
+        width:32% !important;
+    }
+    .other_3{
+        width:100%;
+    }
+    .correction_2{
+        width:100%;
+    }
+    .correction_2 a{
+        width:60%;
+    }
+    .control a{
+        width: 60%;
+    }
+    .Apy_2 a{
+        width: 60%;
+    }
+    .pay_anyone a{
+        width: 60%;
+    }
+    .chime_card_2 a{
+        width:60%;
+    }
+    .fees a{
+        width: 60%;
+    }
+    .paisa_2 a{
+        width:60%;
+    }
+    .lock img{
+        margin: auto;
+        display: grid;
+    }
+
+
+}
+
+ 
+    
+
+
